@@ -14,8 +14,6 @@
         <version>1.2.3.RELEASE</version>
     </parent>
 
-
-
   <dependencies>
 	<dependency>
 	    <groupId>org.mockito</groupId>
@@ -33,6 +31,25 @@
 	  <version>3.8.1</version>
 	  <scope>test</scope>
 	</dependency>
+
+        <dependency>
+            <groupId>org.mule</groupId>
+            <artifactId>mule-core</artifactId>
+            <version>3.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mule.modules</groupId>
+            <artifactId>mule-module-builders</artifactId>
+            <version>3.6.0</version>
+        </dependency>
+		<dependency>
+			<groupId>org.mule.modules</groupId>
+			<artifactId>mule-modules-all</artifactId>
+			<version>3.6.0</version>
+		</dependency>        
+
+	
+	
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter</artifactId>
@@ -69,9 +86,12 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-thymeleaf</artifactId>
     </dependency>
+
+    
   </dependencies>
 
     <build>
+       
         <plugins>
 <!--   
             <plugin>
